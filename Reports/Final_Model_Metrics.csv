@@ -1,3 +1,4 @@
-﻿Model,Parameter ,Metric,Metric
-,Alpha,MAE,R-squared
-Lasso Regression,0.05,11.72,0.263
+﻿Target,Model,Parameter ,Metric,Metric
+,,,MAE,R-squared
+Min_Salary,Lasso Regression,alpha = 0.05,11.72,0.263
+Max_Salary,Random Forest Regression,"max_depth = 10,  max_featues= 'auto',  n_estimators = 340",18.15,0.289
